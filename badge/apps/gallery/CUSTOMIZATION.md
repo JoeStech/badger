@@ -85,7 +85,7 @@ BADGER/
 - **Image Quality**: For best results, ensure your images are exactly 160x120 pixels (full-size) and 30x23 pixels (thumbnails)
 - **QR Codes**: Make sure your QR code has good contrast (black on white) and includes adequate error correction for the small display size
 - **Photos**: Portrait photos work well. Consider adding a simple border or background color to fill the 160x120 frame
-- **File Format**: Use PNG format with RGB color mode (no transparency needed)
+- **File Format**: Use PNG format with RGB color mode. Opaque images (no transparency) are recommended for best compatibility
 - **Testing**: After copying files to your badge, test the gallery app to ensure images display correctly
 
 ## Adding More Images
@@ -103,11 +103,15 @@ You can add as many images as you want! Just follow the same pattern:
 
 ## Example: Creating a QR Code
 
-You can use online QR code generators to create your QR code:
-1. Visit a QR code generator website (e.g., qr-code-generator.com)
-2. Enter your desired content (URL, contact info, etc.)
-3. Download the QR code as PNG
-4. Resize to 160x120 pixels for full-size and 30x23 for thumbnail
-5. Replace `my-qr-code.png` with your custom QR code
+You can use various tools to create your QR code:
+- **Online generators**: Use reputable QR code generator websites (search for "QR code generator")
+- **Command-line tools**: Use libraries like `qrencode` or Python's `qrcode` library
+- **Mobile apps**: Many free QR code generator apps are available
+
+Steps to create your QR code:
+1. Generate a QR code with your desired content (URL, contact info, etc.)
+2. Download or export the QR code as PNG
+3. Resize to 160x120 pixels for full-size and 30x23 for thumbnail
+4. Replace `my-qr-code.png` with your custom QR code
 
 Enjoy your personalized badge! 🎉
